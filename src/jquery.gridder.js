@@ -193,7 +193,7 @@
             }
             
             /* CLICK EVENT */
-            _this.on("click", ".gridder-list .timeslot-text", function (e) {
+            _this.on("click", ".gridder-list .gridder-trigger", function (e) {
                 e.preventDefault();
                 var myself = $(this).closest(".gridder-list");
                 openExpander(myself);
